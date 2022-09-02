@@ -283,7 +283,7 @@ class Gobang():
 
 
 app = tkinter.Tk()
-app.title('五目並べ')
+app.title('四目並べ')
 Button = tkinter.Button(text=u'回転',width=5,height=1)
 Button.pack()
 gobang = Gobang(app,Button)
